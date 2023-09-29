@@ -8,9 +8,11 @@ It does this by retrieving only pieces of data whose level of importance is subj
 
 Those pieces are:
 
--Price
--Dividend (as much info that is retrievable)
--Company description
+Price
+
+Dividend (as much info that is retrievable)
+
+Company description
 
 It can be considered a stock picker but in my experience this data is usually sufficient enough to make a decision *as to whether to research further*.
 
