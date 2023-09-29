@@ -48,7 +48,6 @@ class MainWindow(QMainWindow):
         global quote_query
         quote_query = QLineEdit()
         quote_query.setPlaceholderText("AAPL, F...")
-        quote_query.setInputMask("XXXXX;_")
         quote_query.textChanged.connect(self.decouple_quote)        
 
 
