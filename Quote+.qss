@@ -1,0 +1,4 @@
+QLabel#quoteNFO   {
+    background-color: black;
+    color: white;
+}
