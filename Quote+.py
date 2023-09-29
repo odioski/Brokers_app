@@ -3,7 +3,7 @@
 from polygon import RESTClient
 
 
-client = RESTClient(api_key="4pgWU0VnA3pVrog6dpqVnkSz9Y0RWa56")
+client = RESTClient(api_key="APIKEY")
 
 
 import os
