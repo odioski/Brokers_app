@@ -26,7 +26,7 @@ Navigate to /INSTALLER and run Quote+_Installer then run Quote+.exe or click the
 
 You can also run the script via your terminal.
 
-    python -m Quote+.py
+    python Quote+.py
 
 # SUPPORT
 
