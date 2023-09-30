@@ -54,7 +54,7 @@ class MainWindow(QMainWindow):
 #   Controls
 
         global launchBtn
-        launchBtn = QPushButton("Launch")
+        launchBtn = QPushButton("$$Launch$$")
         launchBtn.setFixedHeight(30)
         launchBtn.clicked.connect(self.get_results)
 
@@ -102,6 +102,7 @@ class MainWindow(QMainWindow):
 
         app_container = QWidget()
         app_container.setLayout(layout)
+        app_container.setWindowTitle("Quote+")
 
         self.setCentralWidget(app_container)
 
@@ -113,8 +114,8 @@ class MainWindow(QMainWindow):
     def decouple_quote(self, text):
         ticker_holder = text
         if ticker_holder != "NULL":
-            query_results.setText("Quote : " + ticker_holder)
-            query_results.setText("Quote : " + ticker_holder)
+            query_results.setText(" Quote : " + ticker_holder)
+            query_results.setText(" Quote : " + ticker_holder)
         else:
             pass
         
@@ -124,7 +125,7 @@ class MainWindow(QMainWindow):
             quote = client.get_last_quote(ticker = ticker_holder)
             query_results.setText("quote")
         else:
-            query_results.setText("Need a quote?")
+            query_results.setText(" Need a quote?")
 
 
 def reset():
