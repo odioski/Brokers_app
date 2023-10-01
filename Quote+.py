@@ -15,7 +15,7 @@ import serial
 basedir = os.path.dirname(__file__)
 
 global ticker_holder
-ticker_holder = "NULL"
+ticker_holder = "NIL"
 
 
 #   Necessary components...
