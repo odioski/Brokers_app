@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         logo = QLabel("Broker's App")
-        logo.setPixmap(QPixmap(os.path.join(basedir, "_header.png")))
+        logo.setPixmap(QPixmap(os.path.join(basedir, "header.png")))
         logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
 

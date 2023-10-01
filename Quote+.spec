@@ -5,7 +5,7 @@ a = Analysis(
     ['Quote+.py'],
     pathex=[],
     binaries=[],
-    datas=[('Quote+.qss', '.'), ('resetIcon.png', '.'), ('_header.png', '.'), ('Software64.png', '.'), ('wiz.png', '.'), ('Splash.png', '.')],
+    datas=[('Quote+.qss', '.'), ('resetIcon.png', '.'), ('header.png', '.'), ('Software64.png', '.'), ('wiz.png', '.'), ('Splash.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
