@@ -20,9 +20,6 @@ If you like to casually browse the market but tend to get tense from information
 
 # INSTALLATION
 
-Quote+ relies on the Polygon.io API to aggregate it's information so you'll need an API KEY from them in order to use this.
-Once you have one replace *POLYGON.IO.APIKEY* within the script with your API KEY.
-
 You'll need Python installed which can be found at https://python.org
 
 You can run the script via your terminal or IDE.
