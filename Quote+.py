@@ -113,7 +113,7 @@ class MainWindow(QMainWindow):
 
     def decouple_quote(self, text):
         ticker_holder = text
-        if ticker_holder != "NULL":
+        if ticker_holder != "NIL":
             query_results.setText(" Quote : " + ticker_holder)
             query_results.setText(" Quote : " + ticker_holder)
         else:
@@ -121,7 +121,7 @@ class MainWindow(QMainWindow):
         
 
     def get_results(self, quote_query):
-        if ticker_holder != "NULL":
+        if ticker_holder != "NIL":
             quote = client.get_last_quote(ticker = ticker_holder)
             query_results.setText("quote")
         else:
