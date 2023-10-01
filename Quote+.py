@@ -3,7 +3,7 @@
 from polygon import RESTClient
 
 
-client = RESTClient(api_key="APIKEY")
+client = RESTClient(api_key="POLYGON.IO.APIKEY")
 
 
 import os
@@ -134,7 +134,7 @@ def reset():
 
 
 
-#   Launch Quote+ App
+#   Launch Quote+
 
 window = MainWindow()
 window.show()
