@@ -22,12 +22,11 @@ If you like to casually browse the market but tend to get tense from information
 
 You'll need Python installed which can be found at https://python.org
 
-Navigate to /INSTALLER and run Quote+_Installer then run Quote+.exe or click the Shortcut.
-
-You can also run the script via your terminal.
+You can run the script via your terminal or IDE.
 
     python Quote+.py
 
 # SUPPORT
 
+I'll add video's of Quote+ in action within the next week or two.
 Let me know what you like or dislike or if you want something more added. Thanks.
