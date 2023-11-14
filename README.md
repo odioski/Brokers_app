@@ -20,7 +20,13 @@ If you like to casually browse the market but tend to get tense from information
 
 # INSTALLATION
 
-You'll need Python installed which can be found at https://python.org
+You'll need Python installed as well as pyQt6.
+
+Pythong can be found at https://python.org
+
+Use the following code to aquire pyQt6
+
+    pip install pyQt6
 
 You can run the script via your terminal or IDE.
 
