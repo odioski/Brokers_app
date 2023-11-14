@@ -20,13 +20,13 @@ If you like to casually browse the market but tend to get tense from information
 
 # INSTALLATION
 
-You'll need Python installed as well as pyQt6.
+You'll need Python installed as well as pyQt6 and Polygon.io's libray.
 
 Pythong can be found at https://python.org
 
-Use the following code to aquire pyQt6
+Use the following code to aquire pyQt6 and the Polygon api client.
 
-    pip install pyQt6
+    pip install pyQt6 polygon-api-client
 
 You can run the script via your terminal or IDE.
 
@@ -34,5 +34,4 @@ You can run the script via your terminal or IDE.
 
 # SUPPORT
 
-I'll add video's of Quote+ in action within the next week or two.
-Let me know what you like or dislike or if you want something more added. Thanks.
+You'll aslo need an api-key from Polygon.io which can be had for free but you may need a paid account to take advantage of it.
