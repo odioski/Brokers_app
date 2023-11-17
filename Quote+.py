@@ -115,10 +115,11 @@ class MainWindow(QMainWindow):
         ticker_holder = text
         if ticker_holder != "NIL":
             query_results.setText(" Quote : " + ticker_holder)
-            query_results.setText(" Quote : " + ticker_holder)
         else:
             pass
         
+
+# Print result to screen
 
     def get_results(self, quote_query):
         if ticker_holder != "NIL":
@@ -128,17 +129,17 @@ class MainWindow(QMainWindow):
             query_results.setText(" Need a quote?")
 
 
-def reset():
-    quote_query.setText("")
-    query_results.setText("")
+# Reset app...
 
+def reset():
+    quote_query.setText("") 
+    query_results.setText("")
 
 
 #   Launch Quote+
 
 window = MainWindow()
 window.show()
-
 
 app.setStyleSheet(Path(os.path.join(basedir, 'Quote+.qss')).read_text())
 app.exec()

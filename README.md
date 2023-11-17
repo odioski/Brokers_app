@@ -22,7 +22,7 @@ If you like to casually browse the market but tend to get tense from information
 
 You'll need Python installed as well as pyQt6 and Polygon.io's libray.
 
-Pythong can be found at https://python.org
+Python can be found at https://python.org
 
 Use the following code to aquire pyQt6 and the Polygon api client.
 
@@ -34,4 +34,4 @@ You can run the script via your terminal or IDE.
 
 # SUPPORT
 
-You'll aslo need an api-key from Polygon.io which can be had for free but you may need a paid account to take advantage of it.
+You'll aslo need an api-key from Polygon.io which can be had for free but you may need to pay for a subscription to take advantage of it.
