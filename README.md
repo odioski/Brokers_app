@@ -34,4 +34,4 @@ You can run the script via your terminal or IDE.
 
 # SUPPORT
 
-You'll aslo need an api-key from Polygon.io which can be had for free but you may need to pay for a subscription to take advantage of it.
+You'll also need an api-key from Polygon.io which can be had for free but you may need to pay for a subscription to take advantage of it.
