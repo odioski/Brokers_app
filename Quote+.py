@@ -124,7 +124,7 @@ class MainWindow(QMainWindow):
     def get_results(self, quote_query):
         if ticker_holder != "NIL":
             quote = client.get_last_quote(ticker = ticker_holder)
-            query_results.setText("quote")
+            query_results.setText(quote)
         else:
             query_results.setText(" Need a quote?")
 
