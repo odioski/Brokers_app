@@ -10,9 +10,10 @@ import os
 import subprocess
 import sys
 import time
-import serial
+
 
 basedir = os.path.dirname(__file__)
+
 
 global ticker_holder
 ticker_holder = "NIL"
